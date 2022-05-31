@@ -6,7 +6,7 @@ export function SearchBox() {
   // const [search, setSearch] = useState('');
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  console.log(searchInputRef.current.value);
+  // console.log(searchInputRef.current.value);
 
   return (
     <Flex
